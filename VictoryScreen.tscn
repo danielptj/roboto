@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://PlayButton.gd" type="Script" id=1]
+[ext_resource path="res://assets/ui/Sprites/UI_Flat_Button_Large_Press_01a1.png" type="Texture" id=2]
+[ext_resource path="res://assets/fonts/RobotoMono-VariableFont_wght.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 96, 32 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 14
+use_mipmaps = true
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+use_mipmaps = true
+font_data = ExtResource( 3 )
+
+[node name="VictoryScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_pivot_offset = Vector2( 71, 75 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+rect_pivot_offset = Vector2( 160, 41 )
+color = Color( 0.317647, 0.65098, 0.556863, 1 )
+
+[node name="TitleCard" type="Panel" parent="."]
+margin_left = 91.0
+margin_top = 34.0
+margin_right = 235.0
+margin_bottom = 83.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="TitleText" type="Label" parent="TitleCard"]
+margin_left = 43.0
+margin_top = 12.0
+margin_right = 107.0
+margin_bottom = 34.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Vitória!"
+
+[node name="TitleText" type="Label" parent="."]
+margin_left = 49.0
+margin_top = 88.0
+margin_right = 289.0
+margin_bottom = 129.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Você terminou a primeira fase!
+Mais virão eventualmente."
+align = 1
+
+[node name="PlayButton" type="Button" parent="."]
+margin_left = 83.0
+margin_top = 135.0
+margin_right = 245.0
+margin_bottom = 163.0
+custom_fonts/font = SubResource( 3 )
+text = "Jogar Novamente"
+script = ExtResource( 1 )
+
+[connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_PlayButton_pressed"]

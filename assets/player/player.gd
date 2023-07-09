@@ -30,7 +30,7 @@ func _add_bolt():
 	bolts += 1
 	emit_signal("bolt_collected")
 	if bolts == bolts_max:
-		get_tree().change_scene("res://level1.tscn")
+		get_tree().change_scene("res://VictoryScreen.tscn")
 		
 func bounce():
 	velocity.y = -100
