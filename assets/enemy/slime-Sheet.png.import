@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sky.png-968e0626957980da8cc1df8ba794806a.stex"
+path="res://.import/slime-Sheet.png-c02f0cf5e2f431047206b06b1030fb8a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/details/background/sky.png"
-dest_files=[ "res://.import/sky.png-968e0626957980da8cc1df8ba794806a.stex" ]
+source_file="res://assets/enemy/slime-Sheet.png"
+dest_files=[ "res://.import/slime-Sheet.png-c02f0cf5e2f431047206b06b1030fb8a.stex" ]
 
 [params]
 

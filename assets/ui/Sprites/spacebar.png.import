@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sky.png-968e0626957980da8cc1df8ba794806a.stex"
+path="res://.import/spacebar.png-e46d19e74f7c54f735906462273c597d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/details/background/sky.png"
-dest_files=[ "res://.import/sky.png-968e0626957980da8cc1df8ba794806a.stex" ]
+source_file="res://assets/ui/Sprites/spacebar.png"
+dest_files=[ "res://.import/spacebar.png-e46d19e74f7c54f735906462273c597d.stex" ]
 
 [params]
 

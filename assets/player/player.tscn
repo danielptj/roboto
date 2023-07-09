@@ -140,7 +140,6 @@ shape = SubResource( 1 )
 [node name="animations" type="AnimatedSprite" parent="."]
 frames = SubResource( 23 )
 animation = "idle"
-frame = 1
 playing = true
 
 [node name="state_manager" parent="." instance=ExtResource( 3 )]
@@ -202,5 +201,11 @@ fall_node = NodePath("../fall")
 run_node = NodePath("../run")
 walk_node = NodePath("../walk")
 idle_node = NodePath("../idle")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
 
 [editable path="state_manager"]
