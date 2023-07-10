@@ -23,19 +23,19 @@ func _physics_process(delta: float) -> void:
 func _process(delta: float) -> void:
 	states.process(delta)
 
-func _on_fallzone_body_entered(body):
+func _on_fallzone_body_entered(body) -> void :
 	get_tree().change_scene("res://level1.tscn")
 	
-func _add_bolt():
+func _add_bolt() -> void:
 	bolts += 1
 	emit_signal("bolt_collected")
 	if bolts == bolts_max:
 		get_tree().change_scene("res://VictoryScreen.tscn")
 		
-func bounce():
+func bounce() -> void:
 	velocity.y = -100
 	
-func hurt(var enemyposx):
+func hurt(var enemyposx) -> void:
 	set_modulate(Color(1,0.3,0.3))
 	velocity.y = -40
 	if position.x < enemyposx:

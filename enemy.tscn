@@ -87,7 +87,7 @@ script = ExtResource( 11 )
 position = Vector2( 0, -3 )
 frames = SubResource( 1 )
 animation = "move"
-frame = 1
+frame = 3
 playing = true
 
 [node name="hitbox" type="CollisionShape2D" parent="."]

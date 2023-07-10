@@ -1,7 +1,6 @@
 extends CanvasLayer
 
 var bolts = 0
-var bolts_max = 1
 
 func _ready():
 	$Bolts.text = String(bolts)
