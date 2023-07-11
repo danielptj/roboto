@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://PlayButton.gd" type="Script" id=1]
+[ext_resource path="res://assets/ui/PlayButton.gd" type="Script" id=1]
 [ext_resource path="res://assets/ui/Sprites/UI_Flat_Button_Large_Press_01a1.png" type="Texture" id=2]
 [ext_resource path="res://assets/fonts/RobotoMono-VariableFont_wght.ttf" type="DynamicFontData" id=3]
 

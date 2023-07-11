@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bolt2.png-bd039b6e23a4a6bb6602271fdc2a5d87.stex"
+path="res://.import/bolt2.png-b7251313e46b7b58e7fd76cde69e28a4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/details/bolt2.png"
-dest_files=[ "res://.import/bolt2.png-bd039b6e23a4a6bb6602271fdc2a5d87.stex" ]
+source_file="res://assets/details/bolts/bolt2.png"
+dest_files=[ "res://.import/bolt2.png-b7251313e46b7b58e7fd76cde69e28a4.stex" ]
 
 [params]
 

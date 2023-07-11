@@ -7,11 +7,11 @@
 [ext_resource path="res://assets/details/background/pine2.png" type="Texture" id=5]
 [ext_resource path="res://assets/floor/solid.tres" type="TileSet" id=6]
 [ext_resource path="res://assets/player/player.tscn" type="PackedScene" id=7]
-[ext_resource path="res://bolt.tscn" type="PackedScene" id=8]
+[ext_resource path="res://assets/details/bolts/bolt.tscn" type="PackedScene" id=8]
 [ext_resource path="res://assets/fonts/RobotoMono-VariableFont_wght.ttf" type="DynamicFontData" id=9]
-[ext_resource path="res://assets/details/boltsolo.png" type="Texture" id=10]
-[ext_resource path="res://HUD.gd" type="Script" id=11]
-[ext_resource path="res://enemy.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/details/bolts/boltsolo.png" type="Texture" id=10]
+[ext_resource path="res://assets/ui/HUD.gd" type="Script" id=11]
+[ext_resource path="res://assets/enemy/enemy.tscn" type="PackedScene" id=12]
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
