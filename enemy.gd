@@ -1,13 +1,12 @@
 extends KinematicBody2D
 
-var speed = 35
 var velocity = Vector2.ZERO
+var speed = 35
 export var direction = -1
 
 func _ready():
 	if direction == 1:
 		$AnimatedSprite.flip_h = true
-	$floor_checker.position.x = $hitbox.shape.get_extents().x * direction
 
 func _physics_process(delta):
 	

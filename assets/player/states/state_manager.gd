@@ -24,7 +24,6 @@ func physics_process(delta: float) -> void:
 	var new_state = current_state.physics_process(delta)
 	if new_state:
 		change_state(new_state)
-	print(typeof(current_state))
 
 func input(event: InputEvent) -> void:
 	var new_state = current_state.input(event)

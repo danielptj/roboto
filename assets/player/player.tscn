@@ -140,6 +140,7 @@ shape = SubResource( 1 )
 [node name="animations" type="AnimatedSprite" parent="."]
 frames = SubResource( 23 )
 animation = "idle"
+frame = 1
 playing = true
 
 [node name="state_manager" parent="." instance=ExtResource( 3 )]
